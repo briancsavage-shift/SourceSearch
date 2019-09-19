@@ -1,8 +1,3 @@
-body
-{
-    background-color: #CFFDFC;
-}
-
 .title
 {
     font-family: 'Arvo', serif;
@@ -196,7 +191,6 @@ body
     padding: 10px;
 }
 
-
 .contentOfHome
 {
     font-family: "Arvo", sans-serif;
@@ -221,4 +215,19 @@ div
     padding-top: 0px;
     margin-top: 0px;
     color: #000;
+}
+
+.signature
+{
+    font-family: 'Arvo', serif;
+    color: #F56A00;
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+    border-style: groove;
+    border-width: 4px;
+    border-color: #65A1A8;
+    background-color: #FFF;
+    position: absolute;
+    bottom: 15px;
 }
