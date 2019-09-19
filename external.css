@@ -1,6 +1,6 @@
 body
 {
-    background-color: #FFF;
+    background-color: #CFFDFC;
 }
 
 .title
@@ -12,79 +12,213 @@ body
     text-align: center;
     text-transform: uppercase;
     letter-spacing: -1px;
-    line-height: 36px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -10px;
-    border-bottom-style: groove;
-    border-bottom-width: 4px;
-    border-bottom-color: #6F04D9;
+    line-height: 40px;
+    border-style: groove;
+    border-width: 4px;
+    border-color: #6F04D9;
     background-color: #6F04D9;
 }
 
-.buttonContact
+.ContactButton
 {
     background-color: #05F29B;
     font-family: 'Arvo', serif;
     color: #6805F2;
     font-size: 23px;
-    text-align: center;
-
-    margin-top: -77px;
-    margin-right: 725px;
-    margin-left: 100px;
+    text-align: left;
+    text-decoration: none;
     border-color: #F2CB05;
     border-width: 3px;
-    background-size: 200px 100px;
     border-style: outset;
-
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 77px;
 }
 
-.buttonServices
+.servicesButton
 {
-    background-color: #05F29B;
+
+    background-color: #B22573;
     font-family: 'Arvo', serif;
-    color: #6805F2;
+    color: #B5F8FF;
     font-size: 23px;
-    text-align: center;
-
-    margin-top: -52px;
-    margin-left: 725px;
-    margin-right: 100px;
+    text-align: left;
+    text-decoration: none;
     border-color: #F2CB05;
     border-width: 3px;
-    background-size: 200px 100px;
     border-style: outset;
-{
-
-.headerOfHome
-{
-        6
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 207px;
 }
 
-.headerOfContact
+.homeButton
 {
-    7
+    background-color: #1265B8;
+    font-family: 'Arvo', serif;
+    color: #F8FFB8;
+    font-size: 23px;
+    text-align: left;
+    text-decoration: none;
+    border-color: #F2CB05;
+    border-width: 3px;
+    border-style: outset;
+    display: inline-block;
+    margin-bottom: 10px;
 }
 
-.headerOfServices
+.contactButton:hover
 {
-    8
+    background-color: #6805F2;
+    font-family: 'Arvo', serif;
+    color: #05F29B;
+    font-size: 23px;
+    text-align: left;
+    text-decoration: none;
+    border-color: #F2CB05;
+    border-width: 3px;
+    border-style: outset;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 77px;
 }
 
-.contentOfHome
+.homeButton:hover
 {
-    9
+    background-color: #F8FFB8;
+    font-family: 'Arvo', serif;
+    color: #1265B8;
+    font-size: 23px;
+    text-align: left;
+    text-decoration: none;
+    border-color: #F2CB05;
+    border-width: 3px;
+    border-style: outset;
+    display: inline-block;
+    margin-bottom: 10px;
 }
+
+.servicesButton:hover
+{
+    background-color: #B5F8FF;
+    font-family: 'Arvo', serif;
+    color: #B22573;
+    font-size: 23px;
+    text-align: left;
+    text-decoration: none;
+    border-color: #F2CB05;
+    border-width: 3px;
+    border-style: outset;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 207px;
+}
+
+.welcomeMsg
+{
+    font-family: Oxygen, sans-serif;
+    text-align: center;
+    font-size: 26px;
+    color: #8EF5B8;
+    background-color: #F47168;
+    margin-left: 490px;
+    margin-right: 30px;
+    padding-top: 10px;
+    margin-top: 30px;
+    padding-bottom: 15px;
+    border-color: #8EF5B8;
+    border-width: 5px;
+    border-style: ridge;
+}
+
+
+.contactTitle
+{
+    font-family: Oxygen, sans-serif;
+    text-align: center;
+    font-size: 26px;
+    color: #7AF57A;
+    background-color: #A84376;
+    margin-left: 490px;
+    margin-right: 30px;
+    padding-top: 10px;
+    margin-top: 30px;
+    padding-bottom: 15px;
+    border-color: #7AF57A;
+    border-width: 5px;
+    border-style: ridge;
+}
+
+.servicesTitle
+{
+    font-family: Oxygen, sans-serif;
+    text-align: center;
+    font-size: 26px;
+    color: #FFE799;
+    background-color: #3A48A8;
+    margin-left: 490px;
+    margin-right: 30px;
+    padding-top: 10px;
+    margin-top: 30px;
+    padding-bottom: 15px;
+    border-color: #FFE799;
+    border-width: 5px;
+    border-style: ridge;
+}
+
 
 .contentOfContact
 {
-    10
+    font-family: "Arvo", sans-serif;
+    text-align: left;
+    font-size: 22px;
+    margin-right: 50px;
+    background-color: white;
+    margin-left: 540px;
+    border-width: 5px;
+    border-color: #A84376;
+    border-style: ridge;
+    padding: 10px;
+
 }
 
 .contentOfServices
 {
-    11
+    font-family: "Arvo", sans-serif;
+    text-align: left;
+    font-size: 22px;
+    margin-right: 50px;
+    background-color: white;
+    margin-left: 540px;
+    border-width: 5px;
+    border-color: #3A48A8;
+    border-style: ridge;
+    padding: 10px;
+}
+
+
+.contentOfHome
+{
+    font-family: "Arvo", sans-serif;
+    text-align: left;
+    font-size: 22px;
+    margin-right: 50px;
+    background-color: white;
+    margin-left: 540px;
+    border-width: 5px;
+    border-color: #F47168;
+    border-style: ridge;
+    padding: 10px;
+
+}
+
+div
+{
+    width: 305px;
+    border: 17px;
+    padding: 50px;
+    margin: 22px;
+    padding-top: 0px;
+    margin-top: 0px;
+    color: #000;
 }
