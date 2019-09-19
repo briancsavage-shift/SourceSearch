@@ -1,0 +1,90 @@
+body
+{
+    background-color: #FFF;
+}
+
+.title
+{
+    font-family: 'Arvo', serif;
+    font-weight: bolder;
+    color: #F2CB05;
+    font-size: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    line-height: 36px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-bottom-style: groove;
+    border-bottom-width: 4px;
+    border-bottom-color: #6F04D9;
+    background-color: #6F04D9;
+}
+
+.buttonContact
+{
+    background-color: #05F29B;
+    font-family: 'Arvo', serif;
+    color: #6805F2;
+    font-size: 23px;
+    text-align: center;
+
+    margin-top: -77px;
+    margin-right: 725px;
+    margin-left: 100px;
+    border-color: #F2CB05;
+    border-width: 3px;
+    background-size: 200px 100px;
+    border-style: outset;
+
+}
+
+.buttonServices
+{
+    background-color: #05F29B;
+    font-family: 'Arvo', serif;
+    color: #6805F2;
+    font-size: 23px;
+    text-align: center;
+
+    margin-top: -52px;
+    margin-left: 725px;
+    margin-right: 100px;
+    border-color: #F2CB05;
+    border-width: 3px;
+    background-size: 200px 100px;
+    border-style: outset;
+{
+
+.headerOfHome
+{
+        6
+}
+
+.headerOfContact
+{
+    7
+}
+
+.headerOfServices
+{
+    8
+}
+
+.contentOfHome
+{
+    9
+}
+
+.contentOfContact
+{
+    10
+}
+
+.contentOfServices
+{
+    11
+}
